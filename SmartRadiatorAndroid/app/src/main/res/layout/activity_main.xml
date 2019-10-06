@@ -31,7 +31,7 @@
                     android:id="@+id/address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Home warm home"
+                    android:textColor="#9C27B0"
                     android:textSize="36dp" />
 
                 <TextView
@@ -39,21 +39,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="20 April 2012, 20:08 PM"
+                    android:textColor="#FFEB3B"
                     android:textSize="14dp" />
             </LinearLayout>
 
 
             <TextView
                 android:id="@+id/temp"
-                android:layout_width="109dp"
+                android:layout_width="251dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="209dp"
-                android:layout_marginTop="101dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="219dp"
                 android:fontFamily="sans-serif-thin"
-                android:text="°C"
-                android:textSize="36dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:textSize="60dp"
                 tools:visibility="visible" />
 
             <LinearLayout
@@ -102,25 +104,28 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="343dp"
+                android:layout_height="57dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="108dp"
-                android:text="Temperature now"
-                android:textSize="24dp" />
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="165dp"
+                android:text="Current temperature"
+                android:textAlignment="center"
+                android:textColor="#090409"
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:layout_width="325dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="189dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="312dp"
                 android:text="Wanted temperature"
-                android:textSize="24dp" />
+                android:textColor="#F80F0707"
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -128,20 +133,80 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="-3dp"
-                android:layout_marginTop="291dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="530dp"
                 android:text="Working time"
+                android:textColor="#0F0707"
                 android:textSize="32dp" />
 
-            <SeekBar
-                android:id="@+id/seekBar3"
-                android:layout_width="82dp"
-                android:layout_height="103dp"
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="213dp"
-                android:layout_marginEnd="10dp"
-                android:rotation="270" />
+                android:layout_marginTop="369dp"
+                android:layout_marginEnd="137dp"
+                android:ems="2"
+                android:inputType="numberSigned" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="187dp"
+                android:layout_height="52dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="427dp"
+                android:text="At home"
+                android:textAlignment="center"
+                android:textColor="#110808"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="433dp"
+                android:layout_marginEnd="18dp"
+                android:ems="4"
+                android:inputType="time" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="106dp"
+                android:layout_marginBottom="22dp"
+                android:text="Heat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="119dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="100dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="102dp"
+                android:text="Home warm home"
+                android:textColor="#9C27B0"
+                android:textSize="30sp" />
 
 
         </RelativeLayout>

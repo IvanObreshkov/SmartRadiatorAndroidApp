@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 double a = Double.parseDouble(main.getString("temp"));
                 Math.round(a);
                 Integer temp = (int) a;
-                String newTemp = String.valueOf(temp);
+                String newTemp = String.valueOf(temp + 1 + "°C");
 
 
 
